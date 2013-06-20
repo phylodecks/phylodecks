@@ -4,7 +4,7 @@
 //
 //  Created by Sun, You Fei on 13-06-01.
 //  Copyright __MyCompanyName__ 2013. All rights reserved.
-//
+//  test
 
 
 #import <GameKit/GameKit.h>
