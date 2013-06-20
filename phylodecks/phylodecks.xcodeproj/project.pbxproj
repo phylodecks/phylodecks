@@ -133,6 +133,7 @@
 		09773E27175B0E5700FD011E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 09773E26175B0E5700FD011E /* AppDelegate.m */; };
 		09773E2A175B0E5700FD011E /* HelloWorldLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 09773E29175B0E5700FD011E /* HelloWorldLayer.m */; };
 		09773E2D175B0E5700FD011E /* IntroLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 09773E2C175B0E5700FD011E /* IntroLayer.m */; };
+		668002521772C10300A1B093 /* Player.m in Sources */ = {isa = PBXBuildFile; fileRef = 668002511772C10300A1B093 /* Player.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -398,6 +399,8 @@
 		09773E29175B0E5700FD011E /* HelloWorldLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloWorldLayer.m; sourceTree = "<group>"; };
 		09773E2B175B0E5700FD011E /* IntroLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IntroLayer.h; sourceTree = "<group>"; };
 		09773E2C175B0E5700FD011E /* IntroLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IntroLayer.m; sourceTree = "<group>"; };
+		668002501772C10300A1B093 /* Player.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Player.h; sourceTree = "<group>"; };
+		668002511772C10300A1B093 /* Player.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Player.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -458,6 +461,8 @@
 			children = (
 				09773E25175B0E5700FD011E /* AppDelegate.h */,
 				09773E26175B0E5700FD011E /* AppDelegate.m */,
+				668002501772C10300A1B093 /* Player.h */,
+				668002511772C10300A1B093 /* Player.m */,
 				09773E28175B0E5700FD011E /* HelloWorldLayer.h */,
 				09773E29175B0E5700FD011E /* HelloWorldLayer.m */,
 				09773E2B175B0E5700FD011E /* IntroLayer.h */,
@@ -1009,6 +1014,7 @@
 				09773E27175B0E5700FD011E /* AppDelegate.m in Sources */,
 				09773E2A175B0E5700FD011E /* HelloWorldLayer.m in Sources */,
 				09773E2D175B0E5700FD011E /* IntroLayer.m in Sources */,
+				668002521772C10300A1B093 /* Player.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1112,6 +1118,7 @@
 				09773E32175B0E5700FD011E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
