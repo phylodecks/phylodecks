@@ -10,5 +10,5 @@
 #import "Card.h"
 
 @interface Player : NSObject
-
+@property NSString *Name;
 @end
