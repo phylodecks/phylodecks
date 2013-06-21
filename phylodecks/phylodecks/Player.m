@@ -27,8 +27,10 @@
     NSString *documentsDirectory = [paths objectAtIndex:0];
     
     NSString *myFile = [documentsDirectory stringByAppendingPathComponent:fileName];
-    [NSString stringWithFormat:@"%@, %@"]
+    NSString *write = [NSString stringWithFormat:@"%@", _profileName];
+    [write writeToFile:myFile atomically:atom encoding:<#(NSStringEncoding)#> error:<#(NSError **)#>];
 }
+
 
 -(int) getLevel {
     return _level;
