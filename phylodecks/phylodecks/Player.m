@@ -11,9 +11,10 @@
 
 @implementation Player
 -(Player *) init {
+    self = [super init];
     _level = 1;
     _experience = 0;
-    return [super init];
+    return self;
 }
 
 -(Player *) initWithFile:(NSString *)fileName
@@ -22,17 +23,20 @@
     return [super init];
 }
 
--(void) writeToFile:(NSString *)fileName atomically:(BOOL)atom {
+-(void) writeToFile:(NSString *)fileName atomically:(BOOL)atom encoding:(NSStringEncoding)enc error:(NSError **)error {
     NSArray *paths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);
     NSString *documentsDirectory = [paths objectAtIndex:0];
     
     NSString *myFile = [documentsDirectory stringByAppendingPathComponent:fileName];
-    NSString *write = [NSString stringWithFormat:@"%@", _profileName];
-    [write writeToFile:myFile atomically:atom encoding:<#(NSStringEncoding)#> error:<#(NSError **)#>];
+    NSString *write = [NSString stringWithFormat:@"%@\n%lu\n%lu\n%lu\n", _profileName, (unsigned long) _level, (unsigned long) _experience, (unsigned long)[_playersCards count]];
+    for (NSString *card in _playersCards) {
+        write = [NSString stringWithFormat: @"%@%@\n", write, card];
+    }
+    [write writeToFile:myFile atomically:atom encoding:enc error:error];
 }
 
 
--(int) getLevel {
+-(NSUInteger) getLevel {
     return _level;
 }
 

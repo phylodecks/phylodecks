@@ -19,7 +19,7 @@
 -(Player*) init;
 -(Player*) initWithFile: (NSString *)fileName
              atomically: (BOOL) atom;
--(int) getLevel;
+-(NSUInteger) getLevel;
 -(void) writeToFile: (NSString *)fileName atomically:(BOOL)atom;
 -(void) addExperience: (NSUInteger)exp;
 @end

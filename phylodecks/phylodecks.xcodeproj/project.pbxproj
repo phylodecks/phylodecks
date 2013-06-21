@@ -403,8 +403,8 @@
 		09773E2C175B0E5700FD011E /* IntroLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IntroLayer.m; sourceTree = "<group>"; };
 		668002501772C10300A1B093 /* Player.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Player.h; sourceTree = "<group>"; };
 		668002511772C10300A1B093 /* Player.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Player.m; sourceTree = "<group>"; };
-		6687570917741FDC001E1835 /* Card.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Card.h; sourceTree = "<group>"; };
-		6687570A17741FDC001E1835 /* Card.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Card.m; sourceTree = "<group>"; };
+		6687570917741FDC001E1835 /* Card.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Card.h; path = ../Card.h; sourceTree = "<group>"; };
+		6687570A17741FDC001E1835 /* Card.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Card.m; path = ../Card.m; sourceTree = "<group>"; };
 		66A68A6E1772873600759D7F /* Player.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Player.h; sourceTree = "<group>"; };
 		66A68A6F1772873600759D7F /* Player.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Player.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -432,8 +432,6 @@
 		09773C8F175B0E5400FD011E = {
 			isa = PBXGroup;
 			children = (
-				6687570917741FDC001E1835 /* Card.h */,
-				6687570A17741FDC001E1835 /* Card.m */,
 				09773CAD175B0E5400FD011E /* phylodecks */,
 				09773C9A175B0E5400FD011E /* Frameworks */,
 				09773C99175B0E5400FD011E /* Products */,
@@ -470,6 +468,8 @@
 				09773E25175B0E5700FD011E /* AppDelegate.h */,
 				09773E26175B0E5700FD011E /* AppDelegate.m */,
 				668002501772C10300A1B093 /* Player.h */,
+				6687570A17741FDC001E1835 /* Card.m */,
+				6687570917741FDC001E1835 /* Card.h */,
 				668002511772C10300A1B093 /* Player.m */,
 				09773E28175B0E5700FD011E /* HelloWorldLayer.h */,
 				09773E29175B0E5700FD011E /* HelloWorldLayer.m */,

@@ -6,6 +6,7 @@
 //
 //
 
+#import <sqlite3.h>
 #import "Card.h"
 
 @implementation Card
