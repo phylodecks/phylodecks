@@ -133,7 +133,11 @@
 		09773E27175B0E5700FD011E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 09773E26175B0E5700FD011E /* AppDelegate.m */; };
 		09773E2A175B0E5700FD011E /* HelloWorldLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 09773E29175B0E5700FD011E /* HelloWorldLayer.m */; };
 		09773E2D175B0E5700FD011E /* IntroLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 09773E2C175B0E5700FD011E /* IntroLayer.m */; };
+<<<<<<< HEAD
 		668002521772C10300A1B093 /* Player.m in Sources */ = {isa = PBXBuildFile; fileRef = 668002511772C10300A1B093 /* Player.m */; };
+=======
+		66A68A701772873600759D7F /* Player.m in Sources */ = {isa = PBXBuildFile; fileRef = 66A68A6F1772873600759D7F /* Player.m */; };
+>>>>>>> bec2e4fc1805f697d3a3b71a75fcb6d7069f2464
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -399,8 +403,13 @@
 		09773E29175B0E5700FD011E /* HelloWorldLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloWorldLayer.m; sourceTree = "<group>"; };
 		09773E2B175B0E5700FD011E /* IntroLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IntroLayer.h; sourceTree = "<group>"; };
 		09773E2C175B0E5700FD011E /* IntroLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IntroLayer.m; sourceTree = "<group>"; };
+<<<<<<< HEAD
 		668002501772C10300A1B093 /* Player.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Player.h; sourceTree = "<group>"; };
 		668002511772C10300A1B093 /* Player.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Player.m; sourceTree = "<group>"; };
+=======
+		66A68A6E1772873600759D7F /* Player.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Player.h; sourceTree = "<group>"; };
+		66A68A6F1772873600759D7F /* Player.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Player.m; sourceTree = "<group>"; };
+>>>>>>> bec2e4fc1805f697d3a3b71a75fcb6d7069f2464
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -465,6 +474,8 @@
 				668002511772C10300A1B093 /* Player.m */,
 				09773E28175B0E5700FD011E /* HelloWorldLayer.h */,
 				09773E29175B0E5700FD011E /* HelloWorldLayer.m */,
+				66A68A6E1772873600759D7F /* Player.h */,
+				66A68A6F1772873600759D7F /* Player.m */,
 				09773E2B175B0E5700FD011E /* IntroLayer.h */,
 				09773E2C175B0E5700FD011E /* IntroLayer.m */,
 				09773CAE175B0E5400FD011E /* Resources */,
@@ -1014,7 +1025,11 @@
 				09773E27175B0E5700FD011E /* AppDelegate.m in Sources */,
 				09773E2A175B0E5700FD011E /* HelloWorldLayer.m in Sources */,
 				09773E2D175B0E5700FD011E /* IntroLayer.m in Sources */,
+<<<<<<< HEAD
 				668002521772C10300A1B093 /* Player.m in Sources */,
+=======
+				66A68A701772873600759D7F /* Player.m in Sources */,
+>>>>>>> bec2e4fc1805f697d3a3b71a75fcb6d7069f2464
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
