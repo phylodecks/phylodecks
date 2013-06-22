@@ -18,9 +18,17 @@
 }
 
 -(Player *) initWithFile:(NSString *)fileName
-              atomically:(BOOL) atom {
-    
-    return [super init];
+              atomically:(BOOL) atom
+                encoding:(NSStringEncoding)enc
+                   error:(NSError **)error {
+    self = [super init];
+    NSString *filePath = [[NSBundle mainBundle] pathForResource:fileName ofType:@"txt"];
+    //NSData *myData = [NSData dataWithContentsOfFile:filePath];
+    //if (myData) {
+    //
+    //}
+    FILE * myFile;
+    return self;
 }
 
 -(void) writeToFile:(NSString *)fileName atomically:(BOOL)atom encoding:(NSStringEncoding)enc error:(NSError **)error {

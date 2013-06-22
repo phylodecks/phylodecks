@@ -8,7 +8,6 @@
 
 //
 #import <Foundation/Foundation.h>
-#import "Card.h"
 
 @interface Player : NSObject {
     NSString *_profileName;
@@ -17,9 +16,8 @@
     NSArray *_playersCards;
 }
 -(Player*) init;
--(Player*) initWithFile: (NSString *)fileName
-             atomically: (BOOL) atom;
+-(Player*) initWithFile: (NSString *)fileName atomically: (BOOL) atom encoding:(NSStringEncoding)enc error:(NSError **)error;
 -(NSUInteger) getLevel;
--(void) writeToFile: (NSString *)fileName atomically:(BOOL)atom;
+-(void) writeToFile: (NSString *)fileName atomically:(BOOL)atom encoding:(NSStringEncoding)enc error:(NSError **)error;
 -(void) addExperience: (NSUInteger)exp;
 @end
